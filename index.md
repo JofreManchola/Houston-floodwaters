@@ -14,6 +14,6 @@ La georreferenciación de los medidores (_gage_), se realizó obteniendo los dat
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1sVTD1qKoASlHOlEC8sJDUne8a1M" width="640" height="480"></iframe>
 
-[Ejemplo con openlayers](.test-ol.html)
+[Ejemplo con openlayers](test-ol.html)
 [Ejemplo con ESRI API for JavaScript](test-esri.html)
 
