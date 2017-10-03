@@ -13,3 +13,8 @@ Los datos se han obtenido de [The Flood Warning System](https://www.harriscounty
 La georreferenciación de los medidores (_gage_), se realizó obteniendo los datos del [Monthly Rainfall Report QAQC](https://www.harriscountyfws.org/Document_Library) para agosto de 2017 y posteriormente se utilizó [google maps]() que ubicó los puntos en el mapa. El mapa puede ser consultado [aquí](https://goo.gl/BUkryX).
 
 La visualización propuesta está disponible [aquí](https://jofremanchola.github.io/Houston-floodwaters/).
+
+
+Basado en los siguientes ejemplos:
+- https://openlayers.org/en/latest/examples/geojson.html
+

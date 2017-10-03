@@ -13,3 +13,27 @@ Los datos se han obtenido de [The Flood Warning System](https://www.harriscounty
 La georreferenciación de los medidores (_gage_), se realizó obteniendo los datos del [Monthly Rainfall Report QAQC](https://www.harriscountyfws.org/Document_Library) para agosto de 2017 y posteriormente se utilizó [google maps]() que ubicó los puntos en el mapa. El mapa puede ser consultado [aquí](https://goo.gl/BUkryX).
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1sVTD1qKoASlHOlEC8sJDUne8a1M" width="640" height="480"></iframe>
+
+<link rel="stylesheet" href="https://openlayers.org/en/v4.3.4/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script src="https://openlayers.org/en/v4.3.4/build/ol.js" type="text/javascript"></script>
+<div id="map" class="map"></div>
+    <script type="text/javascript">
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([37.41, 8.82]),
+          zoom: 4
+        })
+      });
+    </script>
